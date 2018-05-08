@@ -12,8 +12,8 @@ public class AvoidStartWithDollarAndUnderLineNamingRuleTest {
     <test-code>
         <description>name should not be start with $ and _</description>
         <expected-problems>4</expected-problems>
-        <code-ref id="AvoidStartWithDollarAndUnderLine" />
         <expected-linenumbers>2,3,4,5</expected-linenumbers>
+        <code-ref id="AvoidStartWithDollarAndUnderLine" />
     </test-code>
 
     <code-fragment id="AvoidStartWithDollarAndUnderLine1">

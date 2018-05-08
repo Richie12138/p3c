@@ -20,7 +20,7 @@ public class IStudentDaoImpl implements IStudentDao {
     <test-code>
         <description>should not use ibatis method queryForList</description>
         <expected-problems>2</expected-problems>
-        <code-ref id="IbatisMethodQueryForListRule"/>
         <expected-linenumbers>4,10</expected-linenumbers>
+        <code-ref id="IbatisMethodQueryForListRule"/>
     </test-code>
 </test-data>

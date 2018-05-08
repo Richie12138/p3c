@@ -8,8 +8,8 @@ public abstract class abstractNameRuleTest {
     <test-code>
         <description>abstract class name should start with Abstract or Base</description>
         <expected-problems>1</expected-problems>
-        <code-ref id="AbstractNamingRuleStartWithabstract" />
         <expected-linenumbers>1</expected-linenumbers>
+        <code-ref id="AbstractNamingRuleStartWithabstract" />
     </test-code>
 
     <code-fragment id="AbstractNamingRuleStartWithAbstract">
@@ -45,7 +45,8 @@ public abstract class baseAbstractNameRuleTest {
     <test-code>
         <description>abstract class name should start with Abstract or Base</description>
         <expected-problems>1</expected-problems>
-        <code-ref id="AbstractNamingRuleStartWithbase" />
         <expected-linenumbers>1</expected-linenumbers>
+        <code-ref id="AbstractNamingRuleStartWithbase" />
+
     </test-code>
 </test-data>

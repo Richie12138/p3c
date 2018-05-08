@@ -15,8 +15,8 @@
     <test-code>
         <description>issuccess should not contain is</description>
         <expected-problems>2</expected-problems>
+        <expected-linenumbers>2,3</expected-linenumbers>
         <code-ref id="boolean-property-in-POJO-class" />
-        <expected-problems>2,3</expected-problems>
     </test-code>
 
 

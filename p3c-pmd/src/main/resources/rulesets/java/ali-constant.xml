@@ -4,10 +4,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
 
-
+    <description>description</description>
     <rule name="UpperEllRule"
         message="java.constant.UpperEllRule.rule.msg"
         class="com.alibaba.p3c.pmd.lang.java.rule.constant.UpperEllRule">
+        <description>description</description>
         <priority>1</priority>
         <example>
       <![CDATA[
@@ -27,6 +28,7 @@ Positive example:
     <rule name="UndefineMagicConstantRule"
         message="java.constant.UndefineMagicConstantRule.rule.msg"
         class="com.alibaba.p3c.pmd.lang.java.rule.constant.UndefineMagicConstantRule">
+        <description>description</description>
         <priority>3</priority>
 
         <example>

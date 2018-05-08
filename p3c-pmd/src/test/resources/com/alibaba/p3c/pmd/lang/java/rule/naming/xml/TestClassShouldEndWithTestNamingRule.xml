@@ -11,8 +11,8 @@ public class TestClassNameRuleTest {
     </code-fragment>
     <test-code>
         <description>Test Class Name Should End With Test</description>
-        <code-ref id="TestClassNameEndWithTest" />
         <expected-problems>0</expected-problems>
+        <code-ref id="TestClassNameEndWithTest" />
     </test-code>
 
 
@@ -29,7 +29,7 @@ public class TestClassNameRuleErrorExample {
     <test-code>
         <description>Test Class Name Should End With Test</description>
         <expected-problems>1</expected-problems>
-        <code-ref id="TestClassNameNotEndWithTest" />
         <expected-linenumbers>1</expected-linenumbers>
+        <code-ref id="TestClassNameNotEndWithTest" />
     </test-code>
 </test-data>

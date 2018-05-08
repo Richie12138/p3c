@@ -19,7 +19,7 @@
     <test-code>
         <description>complex conditional expression in if condition</description>
         <expected-problems>2</expected-problems>
-        <expected-linenumbers>3,10</expected-linenumbers>                                                                             0    0      ˘                                          0      /expected-linenumbers>
+        <expected-linenumbers>3,10</expected-linenumbers>
         <code-ref id="complex-condition"/>
     </test-code>
 

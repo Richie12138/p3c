@@ -27,8 +27,8 @@ public class CamelClassNameRuleTest {
     <test-code>
         <description>Class Name Should Camel</description>
         <expected-problems>6</expected-problems>
-        <code-ref id="CamelClassNaming" />
         <expected-linenumbers>4,5,7,13,14,18</expected-linenumbers>
+        <code-ref id="CamelClassNaming" />
     </test-code>
 
 

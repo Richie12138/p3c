@@ -3,12 +3,13 @@
 <ruleset name="AlibabaJavaExceptions" xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
-
+    <description>description</description>
     <rule name="MethodReturnWrapperTypeRule"
           language="java"
           since="1.6"
           message="java.exception.MethodReturnWrapperTypeRule.rule.msg"
           class="com.alibaba.p3c.pmd.lang.java.rule.exception.MethodReturnWrapperTypeRule">
+        <description>description</description>
         <priority>3</priority>
         <example>
             <![CDATA[
@@ -24,6 +25,7 @@
           language="java"
           message="java.exception.AvoidReturnInFinallyRule.rule.msg"
           class="com.alibaba.p3c.pmd.lang.java.rule.exception.AvoidReturnInFinallyRule">
+        <description>description</description>
         <priority>2</priority>
         <example>
             <![CDATA[
@@ -50,6 +52,7 @@ Negative example:
           message="java.exception.TransactionMustHaveRollbackRule.rule.msg"
           dfa="true"
           class="com.alibaba.p3c.pmd.lang.java.rule.exception.TransactionMustHaveRollbackRule">
+        <description>description</description>
         <priority>3</priority>
         <example>
             <![CDATA[
