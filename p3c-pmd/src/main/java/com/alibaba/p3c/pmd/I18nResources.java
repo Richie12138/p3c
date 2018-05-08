@@ -87,6 +87,7 @@ public class I18nResources {
 
         @Override
         protected Object handleGetObject(String key) {
+            System.out.println(key);
             return props.getProperty(key);
         }
 

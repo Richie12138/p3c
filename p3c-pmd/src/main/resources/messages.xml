@@ -474,5 +474,7 @@
         <![CDATA[变量【%s】使用的时候应在$后加感叹号]]>
     </entry>
 
-
+    <entry key="description">
+        <![CDATA[描述信息]]>
+    </entry>
 </properties>

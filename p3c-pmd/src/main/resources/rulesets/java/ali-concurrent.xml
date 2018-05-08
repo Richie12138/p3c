@@ -3,7 +3,7 @@
          xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
-
+    <description>description</description>
     <rule name="ThreadPoolCreationRule"
           language="java"
           since="1.6"
@@ -58,6 +58,7 @@ Positive example 3：
           since="1.6"
           message="java.concurrent.AvoidUseTimerRule.rule.msg"
           class="com.alibaba.p3c.pmd.lang.java.rule.concurrent.AvoidUseTimerRule">
+        <description>description</description>
         <priority>1</priority>
         <example>
             <![CDATA[
@@ -100,6 +101,7 @@ Positive example 3：
           message="java.concurrent.ThreadShouldSetNameRule.rule.msg"
           dfa="true"
           class="com.alibaba.p3c.pmd.lang.java.rule.concurrent.ThreadShouldSetNameRule">
+        <description>description</description>
         <priority>2</priority>
         <example>
             <![CDATA[
@@ -171,7 +173,9 @@ Positive example 3：
           message="java.concurrent.ThreadLocalShouldRemoveRule.rule.msg"
           dfa="true"
           class="com.alibaba.p3c.pmd.lang.java.rule.concurrent.ThreadLocalShouldRemoveRule">
+        <description>description</description>
         <priority>2</priority>
+
         <example>
             <![CDATA[
     /**
@@ -221,6 +225,7 @@ Positive example 3：
           message="java.concurrent.AvoidConcurrentCompetitionRandomRule.rule.msg"
           dfa="true"
           class="com.alibaba.p3c.pmd.lang.java.rule.concurrent.AvoidConcurrentCompetitionRandomRule">
+        <description>description</description>
         <priority>3</priority>
         <example>
             <![CDATA[
