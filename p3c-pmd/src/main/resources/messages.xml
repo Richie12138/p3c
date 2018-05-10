@@ -103,17 +103,22 @@
         <![CDATA[中括号是数组类型的一部分，数组定义如下：String[] args]]>
     </entry>
 
-    <entry key="java.concurrent.AvoidUseTimerRule.violation.msg">使用ScheduledExecutorService代替Timer吧</entry>
+    <entry key="java.concurrent.AvoidUseTimerRule.violation.msg">
+        <![CDATA[使用ScheduledExecutorService代替Timer吧]]>
+    </entry>
     <entry key="java.concurrent.AvoidUseTimerRule.rule.msg">
-        多线程并行处理定时任务时，Timer运行多个TimeTask时，只要其中之一没有捕获抛出的异常，其它任务便会自动终止运行，使用ScheduledExecutorService则没有这个问题。
+        <![CDATA[多线程并行处理定时任务时，Timer运行多个TimeTask时，只要其中之一没有捕获抛出的异常，其它任务便会自动终止运行，使用ScheduledExecutorService则没有这个问题。]]>
     </entry>
 
-    <entry key="java.concurrent.AvoidCallStaticSimpleDateFormatRule.violation.msg">【%s()】可能导致线程安全问题</entry>
-    <entry key="java.concurrent.AvoidCallStaticSimpleDateFormatRule.rule.msg"><![CDATA[SimpleDateFormat 是线程不安全的类，一般不要定义为static变量，如果定义为static，必须加锁，或者使用DateUtils工具类。]]>
+    <entry key="java.concurrent.AvoidCallStaticSimpleDateFormatRule.violation.msg">
+        <![CDATA[【%s()】可能导致线程安全问题]]>
     </entry>
-    <entry key="java.concurrent.AvoidCallStaticSimpleDateFormatRule.rule.desc"><![CDATA[
-说明：如果是JDK8的应用，可以使用instant代替Date，LocalDateTime代替Calendar，DateTimeFormatter代替SimpleDateFormat，官方给出的解释：simple beautiful strong immutable thread-safe。
-       ]]></entry>
+    <entry key="java.concurrent.AvoidCallStaticSimpleDateFormatRule.rule.msg">
+        <![CDATA[SimpleDateFormat 是线程不安全的类，一般不要定义为static变量，如果定义为static，必须加锁，或者使用DateUtils工具类。]]>
+    </entry>
+    <entry key="java.concurrent.AvoidCallStaticSimpleDateFormatRule.rule.desc">
+        <![CDATA[说明：如果是JDK8的应用，可以使用instant代替Date，LocalDateTime代替Calendar，DateTimeFormatter代替SimpleDateFormat，官方给出的解释：simple beautiful strong immutable thread-safe。]]>
+    </entry>
 
     <entry key="java.concurrent.AvoidConcurrentCompetitionRandomRule.violation.msg.math.random">
         <![CDATA[【Math.random()】应避免在多线程并发环境下使用。]]>
@@ -466,9 +471,7 @@
         <![CDATA[后台输送给页面的变量必须加感叹号，${var}——中间加感叹号！。]]>
     </entry>
     <entry key="vm.other.UseQuietReferenceNotationRule.rule.desc">
-        <![CDATA[
-说明：如果var=null或者不存在，那么${var}会直接显示在页面上。
-        ]]>
+        <![CDATA[说明：如果var=null或者不存在，那么${var}会直接显示在页面上。]]>
     </entry>
     <entry key="vm.other.UseQuietReferenceNotationRule.violation.msg">
         <![CDATA[变量【%s】使用的时候应在$后加感叹号]]>
@@ -477,4 +480,5 @@
     <entry key="description">
         <![CDATA[描述信息]]>
     </entry>
+
 </properties>

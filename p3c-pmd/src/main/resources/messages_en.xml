@@ -475,4 +475,8 @@ Note: If attribute is null or does not exist, ${var} will be shown directly on w
         <![CDATA[variable [%s] should add ! after $]]>
     </entry>
 
+    <entry key="description">
+        <![CDATA[description message]]>
+    </entry>
+
 </properties>

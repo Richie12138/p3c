@@ -36,6 +36,7 @@ import java.util.ResourceBundle.Control;
  */
 public class I18nResources {
     private static final String XML_LITERAL = "xml";
+    private static final String MSG_KEY_REGEX = "[a-zA-Z.]+";
 
     private static String lang = System.getProperty("pmd.language", "zh");
 
@@ -58,7 +59,12 @@ public class I18nResources {
     }
 
     public static String getMessage(String key) {
-        return resourceBundle.getString(key).trim();
+        // return resourceBundle.getString(key).trim();
+        if (key.matches(MSG_KEY_REGEX)) {
+            return resourceBundle.getString(key).trim();
+        } else {
+            return key;
+        }
     }
 
     public static String getMessage(String key, Object... params) {
@@ -87,6 +93,7 @@ public class I18nResources {
 
         @Override
         protected Object handleGetObject(String key) {
+//            System.out.println(key);
             return props.getProperty(key);
         }
 
